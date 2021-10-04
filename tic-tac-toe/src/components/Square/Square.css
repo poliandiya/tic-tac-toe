@@ -9,3 +9,30 @@
 
   cursor: pointer;
 }
+
+@media (max-width: 412px) {
+  .Square {
+    height: 70px;
+    width: 70px;
+
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 310px) {
+  .Square {
+    height: 50px;
+    width: 50px;
+
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 230px) {
+  .Square {
+    height: 30px;
+    width: 30px;
+
+    font-size: 1em;
+  }
+}
