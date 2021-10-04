@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { calcWinner } from './calcWinner';
-import Board from './Board';
+import { calcWinner } from '../calcWinner';
+import Board from '../Board/Board';
 import './Game.css';
 
 export const Game = ({ player1, player2 }) => {
